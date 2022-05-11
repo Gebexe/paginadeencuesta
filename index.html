@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Queremos saber tu opinion sobre esto</h1>
+
+         <form action="codigo.php" method="GET">
+             <label>nombre <input placeholder="juanito" type="text"> </label>
+             <label>sexo<select name="sexo">
+                <option value="masculino"> masculino</option>
+                <option value="femenino"> femenino</option>
+                <option value="otro"> otro</option>
+            </select></label>
+             <label>email <input placeholder= "juanito@mail.com" type="" multiple></label>
+             <label>edad<input type="number" min="8" max="13"></label>
+             <label>contraseña<input type="password"></label>
+             <label>direccion<input type="text"></label>
+
+             <button>enviar</button>
+         </form>
+<H2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Cual es tu genero videojuego preferido?</H2>
+         <select name="videojuegos" > Selecciona tu genero de videojuegos preferido
+             <option value="shooter">shooter</option>
+             <option value="fighting games">fighting games</option>
+             <option value="deportes">deportesr</option>
+             <option value="moba">moba</option>
+             <option value="rpg">rpg</option>
+             <option value="party games">party games</option></select>
+
+<h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Cual es tu mascota preferida?</h3>
+<select name = "mascotas"> Selecciona tu mascota
+    <option value="perro">perro</option>
+    <option value="gato">gato</option>
+    <option value="aves">aves (palomas, canarios, loros)</option>
+    <option value="reptiles">reptiles(tortugas, lagartijas, iguanas)</option>
+    <option value="animales de granja">animales de granja (caballos, vacas, ovejas)</option>
+    <option value="otros">otros</option>
+
+</select>
+
+
+         
+</body>
+</html>	
