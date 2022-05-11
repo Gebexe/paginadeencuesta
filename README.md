@@ -1,0 +1,2 @@
+# paginadeencuesta
+encuesta simple
